@@ -1,0 +1,81 @@
+body{
+    color:black;
+    background-color: azure;
+    font-family: cursive;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    color:blueviolet;
+    text-decoration: none;    
+}
+header img{
+    width: 140px;
+    height: 190px;
+    border-radius: 100px;
+    border:2px solid blueviolet;
+}
+.center{
+    text-align: center;
+
+}
+h1{
+    color: blueviolet;
+}
+h3{
+    color: blueviolet;
+}
+footer img{
+    width:60px;
+    justify-content: center;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    margin: 20px;
+    text-align: center;
+
+}
+footer p{
+    margin-top: 2px;
+
+}
+.container{
+    padding: 0px 50px;
+
+}
+nav a{
+    font-size: 20px;
+
+}
+nav a:hover{
+    color: blue;
+
+}
+    
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color:blueviolet;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+   

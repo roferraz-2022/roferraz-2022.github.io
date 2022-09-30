@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="project.html">Projetos</a>
+                    </li>
+                                        
+                </ul>
+            </nav>
+
+            <header class="center">
+                <div>
+                    <img src="img/Rosangela.jpg">
+                    <h1>Rosangela Ferraz</h1>
+                    <h2>Estudante de Desenvolvimento Web</h2>
+                </div>
+                
+            </header>
+            <form class="contact-form" action="https://formsubmit.co/roferraz55@gmail.com" method="POST">
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Mensagem</label>
+                    <input type="text" id="message" name="message" required>
+                </div>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                <input type="hidden" name="_subject" value="New submission!">
+            </form>
+        </div>
+    </body>
+    
+</html>    
+    
